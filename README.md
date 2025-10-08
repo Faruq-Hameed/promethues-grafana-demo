@@ -81,7 +81,8 @@ The server runs at:
 
 Endpoints:
 
-* `GET /users` → fetch users from DB
+* `GET api/users` → fetch users from DB
+* `POST api/users` → add user to DB
 * `GET /metrics` → exposes Prometheus metrics
 
 ---
@@ -270,7 +271,7 @@ Once you run this setup, you’ll have a live observability stack — your local
 
 ## 🧭 Why It Matters (Fintech / Integration Context)
 
-In financial or integration systems like **Gapstack**, observability ensures:
+In financial or integration systems, observability ensures:
 
 * High uptime and reliability,
 * Early detection of integration/API failures,
@@ -302,8 +303,3 @@ Fullstack Developer (Backend + Mobile)
 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/Faruq-Hameed)
 
 ---
-
-```
-
----
-```
